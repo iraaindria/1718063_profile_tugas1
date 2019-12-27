@@ -37,13 +37,14 @@
             android:id="@+id/circleImageView2"
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:layout_marginTop="16dp"
             android:elevation="1dp"
             android:src="@drawable/fluxcup"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="109dp"
             tools:targetApi="lollipop" />
 
         <TextView
@@ -99,7 +100,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="POST"
+                    android:text="@string/post"
                     android:textColor="#FFF"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -128,7 +129,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="FOLLOWERS"
+                    android:text="@string/followers"
                     android:textColor="#FFF"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -159,7 +160,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="FOLLOWING"
+                    android:text="@string/following"
                     android:textColor="#FFF"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -290,16 +291,16 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:background="@drawable/button"
-            android:text="FOLLOW"
+            android:text="@string/follow"
             android:textColor="#fff"
             android:textSize="18dp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.67" />
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:layout_constraintVertical_bias="0.547" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

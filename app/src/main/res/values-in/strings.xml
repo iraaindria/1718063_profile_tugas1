@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Profile</string>
+    <string name="post">POSTINGAN</string>
+    <string name="followers">DIIKUTI</string>
+    <string name="following">MENGIKUTI</string>
+    <string name="follow">IKUTI</string>
+</resources>
