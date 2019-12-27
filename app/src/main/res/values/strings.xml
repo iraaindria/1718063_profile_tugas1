@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Profile</string>
-    <string name="post">POST</string>
-    <string name="followers">FOLLOWERS</string>
-    <string name="following">FOLLOWING</string>
-    <string name="follow">FOLLOW</string>
 </resources>
